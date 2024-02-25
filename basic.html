@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZYAD NASR</title>
+    <link rel="shortcut icon" href="images/icon-2.svg" type="image/svg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header class="header section" id="header">
+        <div class="logo">
+            <img src="images/icon-2.svg" alt="Logo">
+        </div>
+        <label for="checkbox" class="toggle">
+            <div class="bars" id="bar1"></div>
+            <div class="bars" id="bar2"></div>
+            <div class="bars" id="bar3"></div>
+        </label>
+        <nav class="navbar">
+            <a href="#home"      style="--i:1" class="active">Home</a>
+            <a href="#about"     style="--i:2">About</a>
+            <a href="#skill"     style="--i:3">Skill</a>
+            <a href="#portfolio" style="--i:4">Portfolio</a>
+            <a href="#contact"   style="--i:5">Contact</a>
+        </nav>
+        <ul class="menu" id="menu">
+            <li><a href="#home"      style="--i:5" class="active">Home</a></li>
+            <li><a href="#about"     style="--i:4">About</a></li>
+            <li><a href="#skill"     style="--i:3">Skill</a></li>
+            <li><a href="#portfolio" style="--i:2">Portfolio</a></li>
+            <li><a href="#contact"   style="--i:1">Contact</a></li>
+        </ul>
+    </header>
+    <section class="home section" id="home">
+        <div class="home-content">
+            <h3>Hey there! I'm</h3>
+            <h1>ZYAD NASR</h1>
+            <h3>And I'm a <span id="typed"></span></h3>
+            <p>Front-end Developer with extensive experience for over 3 years</p>
+            <div class="home-social">
+                <ul class="wrapper">
+                    <li class="icon facebook" style="--i:6" onclick="window.open('https://www.facebook.com/ZIAD.NASR.5871/')">
+                        <span class="tooltip">Facebook</span>
+                        <span><i class="fab fa-facebook-f"></i></span>
+                    </li>
+                    <li class="icon twitter" style="--i:7" onclick="window.open('https://github.com/zyadnasr')">
+                        <span class="tooltip">GitHub</span>
+                        <span><i class="fa-brands fa-github"></i></span>
+                    </li>
+                    <li class="icon instagram" style="--i:8" onclick="window.open('https://www.instagram.com/_.zyad__/')">
+                        <span class="tooltip">Instagram</span>
+                        <span><i class="fab fa-instagram"></i></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="more-about-btn">
+                <a href="#services"><button class="button">Explore More <i class="fa-brands fa-gitlab" style="color: var(--white-color);"></i></button></a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <div class="image-box">
+                <img src="images/main-img.jpg" alt="Developer Picture">
+            </div>
+        </div>
+    </section>
+    <div class="spliter-container"><div class="spliter"></div></div>
+    <section class="about section" id="about">
+        <div class="about-img">
+            <img src="images/main-img.jpg" alt="about image">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Frontend Developer!</h4>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Optio dolor dolorum doloribus autem alias ipsam ab, obcaecati distinctio dolores officiis nulla quae? 
+                Asperiores, nemo praesentium. Nemo facere neque necessitatibus placeat voluptatibus? 
+                Blanditiis fuga nam non fugit enim consectetur sapiente ut, sit laboriosam? Distinctio perspiciatis odio pariatur 
+                fuga recusandae beatae rerum!
+            </p>
+        </div>
+    </section>
+    <div class="spliter-container"><div class="services-spliter"></div></div>
+    <div class="services-collector"></div>
+    <section class="service">
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title"><span>My</span> Services</h1>
+                <div class="grid">
+                    <div class="card" style="--i:1">
+                        <span class="icon">
+                            <i class="fa-brands fa-figma"></i>
+                        </span>
+                        <h4>UI <span>/</span> UX</h4>
+                        <p>
+                            Standard chunk of Lorem Ipsum used since the 1500s is showed below
+                            for those interested.
+                        </p>
+                        <div class="shine"></div>
+                        <div class="background">
+                            <div class="tiles">
+                                <div class="tile tile-1"></div>
+                                <div class="tile tile-2"></div>
+                                <div class="tile tile-3"></div>
+                                <div class="tile tile-4"></div>
+                                <div class="tile tile-5"></div>
+                                <div class="tile tile-6"></div>
+                                <div class="tile tile-7"></div>
+                                <div class="tile tile-8"></div>
+                                <div class="tile tile-9"></div>
+                                <div class="tile tile-10"></div>
+                            </div>
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                        </div>
+                    </div>
+                    <div class="card" style="--i:2">
+                        <span class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </span>
+                        <h4>Web Development</h4>
+                        <p>
+                            Standard chunk of Lorem Ipsum used since the 1500s is showed below
+                            for those interested.
+                        </p>
+                        <div class="shine"></div>
+                        <div class="background">
+                            <div class="tiles">
+                                <div class="tile tile-1"></div>
+                                <div class="tile tile-2"></div>
+                                <div class="tile tile-3"></div>
+                                <div class="tile tile-4"></div>
+                                <div class="tile tile-5"></div>
+                                <div class="tile tile-6"></div>
+                                <div class="tile tile-7"></div>
+                                <div class="tile tile-8"></div>
+                                <div class="tile tile-9"></div>
+                                <div class="tile tile-10"></div>
+                            </div>
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                        </div>
+                    </div>
+                    <div class="card" style="--i:3">
+                        <span class="icon">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </span>
+                        <h4>Analyzing</h4>
+                        <p>
+                            Standard chunk of Lorem Ipsum used since the 1500s is showed below
+                            for those interested.
+                        </p>
+                        <div class="shine"></div>
+                        <div class="background">
+                            <div class="tiles">
+                                <div class="tile tile-1"></div>
+                                <div class="tile tile-2"></div>
+                                <div class="tile tile-3"></div>
+                                <div class="tile tile-4"></div>
+                                <div class="tile tile-5"></div>
+                                <div class="tile tile-6"></div>
+                                <div class="tile tile-7"></div>
+                                <div class="tile tile-8"></div>
+                                <div class="tile tile-9"></div>
+                                <div class="tile tile-10"></div>
+                            </div>
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="spliter-container"><div class="services-spliter"></div></div>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section class="skills-sec section">
+        <div class="skills" id="skill">
+            <div class="container1">
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="technical-bars">
+                    <div class="bar">
+                        <i class="fa-brands fa-html5" style="color: #c95d2e;"></i>
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class="fa-brands fa-css3-alt" style="color: #147bbc;"></i>
+                        <div class="info">
+                            <span>CSS</span>
+                        </div>
+                        <div class="progress-line css">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class="fa-brands fa-js" style="color: #F0DB4F;"></i>
+                        <div class="info">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="progress-line javascript">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class="fa-brands fa-python" style="color: #4B8BBE;"></i>
+                        <div class="info">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-line python">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class="fa-brands fa-react" style="color: #61dbfb;"></i>
+                        <div class="info">
+                            <span>React</span>
+                        </div>
+                        <div class="progress-line react">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">65%</div>
+                        <div class="text">communication</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">80%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">94%</div>
+                        <div class="text">Team Work</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio project" class="project section animate">
+        <div class="main-text" id="project">
+            <h2>Latest <span>Project</span></h2>
+            <div class="portfolio-content">
+                <div class="row" style="--i:1">
+                    <img src="images/uiux.png" alt="">
+                    <div class="layer">
+                        <h5>UI <span>/</span> UX Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos a beatae non, quidem laudantium mollitia sint. 
+                            Non corrupti inventore libero asperiores? Aspernatur vero velit aut maiores praesentium sint rerum sed.</p>
+                        <a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="row" style="--i:2">
+                    <img src="images/web-develop-2.jpg" alt="">
+                    <div class="layer">
+                        <h5>Web Development</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos a beatae non, quidem laudantium mollitia sint. 
+                            Non corrupti inventore libero asperiores? Aspernatur vero velit aut maiores praesentium sint rerum sed.</p>
+                        <a href="https://zyadnasr.github.io/ultimate-x/ultimate.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="row" style="--i:3">
+                    <img src="images/analysis-2.jpg" alt="">
+                    <div class="layer">
+                        <h5>Analyzing</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos a beatae non, quidem laudantium mollitia sint. 
+                            Non corrupti inventore libero asperiores? Aspernatur vero velit aut maiores praesentium sint rerum sed.</p>
+                        <a href="#about"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <div class="spliter-container"><div class="services-spliter"></div></div>
+    <section class="contact section" id="contact">
+        <div class="contact-text">
+            <h3 class="contact-header">Contact</h3>
+            <h1 class="contact-main-text">Got a problem to solve?</h1>
+            <p>Get your space suit ready and tell me your ideas to develop <span>your dream website</span>.</p>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <div class="name" style="--i:1">
+                    <input type="text" name="Name" id="user-name" required >
+                    <label for="user-name">Name</label>
+                </div>
+                <div class="email-dev" style="--i:2">
+                    <input type="email" name="Email" required />
+                    <label for="email">Email</label>
+                </div>
+                <div class="massage" style="--i:3">
+                    <textarea name="Message" id="message" required ></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <div class="contact-footer" style="--i:4">
+                    <p class="my-email" style="--i:4"><i class="fa-solid fa-envelope"></i><a href="mailto:zizomazika4@gmail.com">zizomazika4@gmail.com</a></p>
+                    <a href="#" class="a-2" style="--i:5">Hit me up <i class="fa-solid fa-rocket"></i></a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="spliter-container"><div class="services-spliter footer"></div></div>
+    <section class="footer-1 section">
+        <div class="main-footer-logo">
+            <img src="images/icon-2.svg" alt="logo">
+        </div>
+    </section>
+    <section class="footer-2 section">
+        <div class="links">
+            <a href="#about" style="--i:1">about</a>
+            <a href="#work" style="--i:2">work</a>
+            <a href="#CUSTOMER STORIES" style="--i:3">CUSTOMER STORIES</a>
+            <a href="#services" style="--i:4">SERVICES</a>
+            <a href="#contact" style="--i:5">CONTACT</a>
+            <a href="#sourcecode" style="--i:6">SOURCE CODE</a>
+            <a href="#portfolio" style="--i:7">Portfolio</a>
+        </div>
+    </section>
+    <section class="footer-3 section">
+        <div class="copy-rights" style="--i:1">
+            © 2024 ZYAD STUDIOS
+        </div>
+        <div class="media-footer">
+            <a href="https://github.com/zyadnasr" style="--i:2"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/_.zyad__/" style="--i:3"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://www.linkedin.com/zyadnasr" style="--i:4"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://www.twitter.com/ziadnasr" style="--i:5"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/ZIAD.NASR.5871/" style="--i:6"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://www.discord.com/zyadnasr" style="--i:7"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <div class="imprint" style="--i:8"><a href="/imprintPage/imprint.html">IMPRINT</a></div>
+    </section>
+    <script src="js/basic.js"></script>
+</body>
+</html>
